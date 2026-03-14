@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité | IGC Gestion immobilière</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --igc-dark:#1a2332;--igc-darker:#0f1720;--igc-blue:#2c7a9b;
+  --igc-blue-light:#3a9ec4;--igc-blue-dark:#1e5a73;
+  --slate-50:#f8fafc;--slate-100:#f1f5f9;--slate-200:#e2e8f0;
+  --slate-400:#94a3b8;--slate-500:#64748b;--slate-600:#475569;
+}
+body{font-family:'Inter',system-ui,sans-serif;color:#334155;-webkit-font-smoothing:antialiased;background:#fff}
+a{color:var(--igc-blue);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Header */
+.header{background:rgba(255,255,255,.95);backdrop-filter:blur(12px);border-bottom:1px solid var(--slate-100);box-shadow:0 1px 3px rgba(0,0,0,.04);padding:0 24px}
+.header-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.logo-box{width:40px;height:40px;background:var(--igc-blue);border-radius:10px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:15px}
+.logo-text{font-weight:700;color:var(--igc-dark);font-size:14px}
+.nav-links{display:flex;gap:4px;align-items:center}
+.nav-links a{padding:8px 14px;font-size:13px;font-weight:500;color:var(--slate-600);border-radius:8px;text-decoration:none;transition:all .2s}
+.nav-links a:hover{color:var(--igc-blue);background:var(--slate-50);text-decoration:none}
+.btn-primary{margin-left:8px;padding:9px 18px!important;background:var(--igc-blue)!important;color:#fff!important;font-weight:600!important;border-radius:10px!important}
+.btn-primary:hover{background:var(--igc-blue-dark)!important}
+
+/* Hero */
+.hero{background:var(--igc-dark);padding:64px 24px}
+.hero-inner{max-width:1200px;margin:0 auto}
+.hero h1{font-size:clamp(28px,4vw,40px);font-weight:800;color:#fff;margin-bottom:8px}
+.hero p{color:var(--slate-400);font-size:14px}
+
+/* Content */
+.content{max-width:760px;margin:0 auto;padding:56px 24px 80px}
+.content h2{font-size:20px;font-weight:700;color:var(--igc-dark);margin:40px 0 16px;padding-top:8px;border-top:1px solid var(--slate-100)}
+.content h2:first-of-type{margin-top:0;border-top:none;padding-top:0}
+.content p{font-size:15px;color:var(--slate-600);line-height:1.75;margin-bottom:14px}
+.content ul{list-style:none;padding:0;margin-bottom:20px}
+.content li{font-size:15px;color:var(--slate-600);line-height:1.75;padding:6px 0 6px 28px;position:relative}
+.content li::before{content:'';position:absolute;left:0;top:14px;width:8px;height:8px;background:var(--igc-blue);border-radius:50%;opacity:.5}
+.highlight{font-weight:600;color:var(--igc-dark)!important;background:rgba(44,122,155,.06);border-left:3px solid var(--igc-blue);padding:12px 16px;border-radius:0 8px 8px 0;margin:20px 0}
+.contact-box{background:var(--slate-50);border-radius:12px;padding:24px;margin:20px 0 32px;border:1px solid var(--slate-100)}
+.contact-box p{margin-bottom:4px;font-size:14px}
+.contact-box p:first-child{font-weight:700;color:var(--igc-dark);font-size:15px;margin-bottom:8px}
+.contact-box a{color:var(--igc-blue);font-weight:500}
+.links-box{background:rgba(44,122,155,.04);border:1px solid rgba(44,122,155,.15);border-radius:12px;padding:20px 24px;margin:20px 0}
+.links-box p{font-size:14px;margin-bottom:6px}
+.links-box a{font-weight:600}
+.back-link{border-top:1px solid var(--slate-200);padding-top:32px;margin-top:48px}
+.back-link a{color:var(--igc-blue);font-weight:600;font-size:14px;text-decoration:none}
+.back-link a:hover{text-decoration:underline}
+
+/* Footer */
+.footer{background:var(--igc-darker);padding:32px 24px;text-align:center}
+.footer p{font-size:12px;color:var(--slate-500)}
+.footer a{color:var(--slate-400);margin-left:16px}
+.footer a:hover{color:#fff;text-decoration:none}
+
+@media(max-width:640px){
+  .nav-links{display:none}
+  .hero{padding:48px 24px}
+  .content{padding:40px 24px 60px}
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="header-inner">
+    <a href="#" class="logo">
+      <div class="logo-box">IGC</div>
+      <span class="logo-text">IGC Gestion immobilière</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#">Accueil</a>
+      <a href="#">Services</a>
+      <a href="#">À propos</a>
+      <a href="#">Contact</a>
+      <a href="#" class="btn-primary">Soumission gratuite</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Politique de confidentialité</h1>
+    <p>Dernière mise à jour : mars 2025</p>
+  </div>
+</section>
+
+<!-- Content -->
+<div class="content">
+
+  <h2>Introduction</h2>
+  <p>Immo Gestion Conseil inc. (&laquo;&nbsp;IGC&nbsp;&raquo;, &laquo;&nbsp;nous&nbsp;&raquo;, &laquo;&nbsp;notre&nbsp;&raquo;) s'engage à protéger la vie privée de ses clients, locataires et visiteurs de son site Web. La présente politique de confidentialité explique quels renseignements personnels nous collectons, comment nous les utilisons et avec qui nous les partageons.</p>
+  <p>Pour être en conformité avec les politiques des opérateurs, cette politique de confidentialité inclut les éléments suivants : les renseignements personnels collectés, la façon dont ils sont utilisés, et avec qui ils sont partagés.</p>
+
+  <h2>1. Renseignements personnels collectés</h2>
+  <p>Nous pouvons collecter les renseignements suivants :</p>
+  <ul>
+    <li>Nom, prénom, adresse courriel, numéro de téléphone et adresse postale</li>
+    <li>Informations relatives à votre immeuble ou organisation (type, nombre de logements, etc.)</li>
+    <li>Renseignements financiers nécessaires à la gestion des comptes</li>
+    <li>Données de navigation sur notre site Web (cookies, adresse IP, pages visitées)</li>
+    <li>Numéro de téléphone cellulaire pour l'envoi de communications par SMS</li>
+  </ul>
+
+  <h2>2. Utilisation des renseignements</h2>
+  <p>Vos renseignements personnels sont utilisés pour :</p>
+  <ul>
+    <li>Fournir nos services de gestion immobilière</li>
+    <li>Communiquer avec vous au sujet de votre immeuble</li>
+    <li>Traiter vos demandes de soumission et de consultation</li>
+    <li>Envoyer des communications importantes par courriel ou SMS (rappels, avis, notifications de compte)</li>
+    <li>Améliorer nos services et l'expérience sur notre site Web</li>
+    <li>Respecter nos obligations légales et réglementaires</li>
+  </ul>
+
+  <h2>3. Partage des renseignements</h2>
+  <p>Nous ne vendons ni ne louons vos renseignements personnels à des tiers. Nous pouvons partager vos informations avec :</p>
+  <ul>
+    <li>Des fournisseurs de services qui agissent en notre nom (entretien, comptabilité, technologies)</li>
+    <li>Les autorités compétentes lorsque la loi l'exige</li>
+    <li>Les organismes de financement (SCHL, SHQ) dans le cadre de nos obligations contractuelles</li>
+  </ul>
+  <div class="highlight">
+    Le consentement SMS n'est pas partagé avec des tiers ou des sociétés affiliées.
+  </div>
+
+  <h2>4. Conditions d'utilisation des SMS</h2>
+  <p>En vous inscrivant aux SMS à partir d'un formulaire Web ou d'un autre support, vous acceptez de recevoir des SMS de Immo Gestion Conseil inc. Cela inclut les SMS pour le service à la clientèle. Veuillez noter :</p>
+  <ul>
+    <li>La fréquence des messages peut varier.</li>
+    <li>Des frais liés à l'utilisation des messages et des données peuvent s'appliquer.</li>
+    <li>Pour vous désinscrire, textez <strong>ARRÊT</strong> à tout moment.</li>
+    <li>Pour obtenir de l'aide, textez <strong>AIDE</strong> ou visitez notre site Web.</li>
+  </ul>
+  <div class="links-box">
+    <p>Consultez la politique de confidentialité : <a href="https://igc-locataires.igcportail.ca/politique-confidentialite.html" target="_blank">https://igc-locataires.igcportail.ca/politique-confidentialite.html</a></p>
+  </div>
+
+  <h2>5. Protection des renseignements</h2>
+  <p>Nous mettons en place des mesures de sécurité administratives, techniques et physiques appropriées pour protéger vos renseignements personnels contre tout accès, utilisation ou divulgation non autorisés.</p>
+
+  <h2>6. Vos droits</h2>
+  <p>Conformément à la Loi sur la protection des renseignements personnels dans le secteur privé du Québec (Loi 25), vous avez le droit :</p>
+  <ul>
+    <li>D'accéder aux renseignements personnels que nous détenons à votre sujet</li>
+    <li>De demander la rectification de renseignements inexacts</li>
+    <li>De retirer votre consentement à tout moment</li>
+    <li>De déposer une plainte auprès de la Commission d'accès à l'information du Québec</li>
+  </ul>
+
+  <h2>7. Accessibilité de cette politique</h2>
+  <p>Cette politique de confidentialité est facilement accessible et bien mise en évidence sur les formulaires Web du site, notamment via un lien à côté du libellé du consentement. Un lien vers cette politique est également inclus dans le pied de page de chaque page de notre site Web.</p>
+
+  <h2>8. Nous contacter</h2>
+  <p>Pour toute question relative à cette politique ou pour exercer vos droits, veuillez nous contacter :</p>
+  <div class="contact-box">
+    <p>Immo Gestion Conseil inc.</p>
+    <p>7040 Hutchison, Montréal (Québec)</p>
+    <p>Téléphone : <a href="tel:514-329-3034">514-329-3034</a></p>
+    <p>Courriel : <a href="mailto:igc@ongere.com">igc@ongere.com</a></p>
+    <p>Site Web : <a href="https://igc-locataires.igcportail.ca" target="_blank">igc-locataires.igcportail.ca</a></p>
+  </div>
+
+  <div class="back-link">
+    <a href="#">&larr; Retour à l'accueil</a>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2025 IGC Gestion immobilière. Tous droits réservés. <a href="#">Politique de confidentialité</a></p>
+</footer>
+
+</body>
+</html>
