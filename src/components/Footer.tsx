@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 export default function Footer() {
@@ -9,9 +10,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-igc-blue rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">IGC</span>
-              </div>
+              <Image
+                src="/logo.png"
+                alt="IGC"
+                width={48}
+                height={48}
+                className="rounded-lg"
+              />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
               Votre partenaire de confiance pour la gestion d&apos;immeubles au
