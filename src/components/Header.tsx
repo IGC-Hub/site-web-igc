@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, Phone, Mail } from "lucide-react";
 
 export default function Header() {
@@ -45,11 +46,13 @@ export default function Header() {
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-100 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-3 group">
-            <div className="w-11 h-11 bg-igc-blue rounded-lg flex items-center justify-center shadow-md group-hover:shadow-lg transition-shadow">
-              <span className="text-white font-bold text-lg tracking-tight">
-                IGC
-              </span>
-            </div>
+            <Image
+              src="/logo.png"
+              alt="IGC"
+              width={44}
+              height={44}
+              className="rounded-lg shadow-md group-hover:shadow-lg transition-shadow"
+            />
             <div className="hidden sm:block">
               <p className="font-bold text-igc-dark text-base leading-tight">
                 IGC

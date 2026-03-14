@@ -9,11 +9,14 @@ Site vitrine d'**Immo Gestion Conseil inc. (IGC)** — gestion d'immeubles rési
 - **Framework** : Next.js 16 (App Router) avec TypeScript
 - **Styles** : Tailwind CSS 4 (via PostCSS)
 - **Icônes** : lucide-react
-- **Build** : `output: "standalone"` dans `next.config.ts`
+- **Images** : next/image
+- **Déploiement** : Vercel
 
 ## Structure
 
 ```
+public/
+  logo.png              # Logo IGC
 src/
   app/
     layout.tsx          # Layout racine (Header + Footer)
