@@ -14,6 +14,7 @@ import {
   Award,
   ArrowRight,
   CheckCircle2,
+  Home,
 } from "lucide-react";
 
 const stats = [
@@ -139,6 +140,15 @@ export default function HomePage() {
                 Demander une soumission
                 <ArrowRight size={18} />
               </Link>
+              <a
+                href="https://www.gereloge.com/fr/candidature/igc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-emerald-600 text-white font-semibold rounded-xl hover:bg-emerald-700 transition-all shadow-lg hover:shadow-xl text-base"
+              >
+                <Home size={18} />
+                Demande de logement
+              </a>
               <Link
                 href="/services"
                 className="inline-flex items-center justify-center gap-2 px-7 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-xl hover:bg-white/20 transition-all border border-white/15 text-base"

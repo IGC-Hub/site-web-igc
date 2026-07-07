@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X, Phone, Mail } from "lucide-react";
+import { Menu, X, Phone, Mail, Home } from "lucide-react";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -74,6 +74,15 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href="https://www.gereloge.com/fr/candidature/igc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-3 px-5 py-2.5 bg-emerald-600 text-white text-sm font-semibold rounded-lg hover:bg-emerald-700 transition-colors shadow-sm hover:shadow-md flex items-center gap-1.5"
+            >
+              <Home size={15} />
+              Demande de logement
+            </a>
             <Link
               href="/contact"
               className="ml-3 px-5 py-2.5 bg-igc-blue text-white text-sm font-semibold rounded-lg hover:bg-igc-blue-dark transition-colors shadow-sm hover:shadow-md"
@@ -106,6 +115,16 @@ export default function Header() {
                   {link.label}
                 </Link>
               ))}
+              <a
+                href="https://www.gereloge.com/fr/candidature/igc"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setMobileOpen(false)}
+                className="mt-2 px-4 py-3 bg-emerald-600 text-white text-sm font-semibold rounded-lg text-center flex items-center justify-center gap-1.5"
+              >
+                <Home size={15} />
+                Demande de logement
+              </a>
               <Link
                 href="/contact"
                 onClick={() => setMobileOpen(false)}
