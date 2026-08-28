@@ -27,9 +27,9 @@ export default function Footer() {
 
           {/* Navigation */}
           <div>
-            <h4 className="font-bold text-sm uppercase tracking-wider mb-4 text-igc-blue-light">
+            <p className="font-bold text-sm uppercase tracking-wider mb-4 text-igc-blue-light">
               Navigation
-            </h4>
+            </p>
             <ul className="space-y-2.5">
               {[
                 { href: "/", label: "Accueil" },
@@ -52,9 +52,9 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="font-bold text-sm uppercase tracking-wider mb-4 text-igc-blue-light">
+            <p className="font-bold text-sm uppercase tracking-wider mb-4 text-igc-blue-light">
               Services
-            </h4>
+            </p>
             <ul className="space-y-2.5">
               {[
                 "Gestion financière",
@@ -77,9 +77,9 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="font-bold text-sm uppercase tracking-wider mb-4 text-igc-blue-light">
+            <p className="font-bold text-sm uppercase tracking-wider mb-4 text-igc-blue-light">
               Contact
-            </h4>
+            </p>
             <ul className="space-y-3">
               <li className="flex items-start gap-2.5">
                 <MapPin size={16} className="text-igc-blue-light mt-0.5 shrink-0" />

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   description:
     "Consultez les offres d'emploi chez Immo Gestion Conseil inc. — gestion d'immeubles résidentiels à Montréal.",
   alternates: {
-    canonical: "https://igcpro.com/emplois",
+    canonical: "https://www.igcpro.com/emplois",
   },
   openGraph: {
     title: "Emplois | IGC Gestion immobilière",

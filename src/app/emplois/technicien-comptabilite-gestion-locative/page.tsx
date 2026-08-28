@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "Offre d'emploi : Technicien ou technicienne en comptabilité — gestion locative chez Immo Gestion Conseil inc. à Montréal. Poste permanent, temps plein, 36,50 $/h.",
   alternates: {
     canonical:
-      "https://igcpro.com/emplois/technicien-comptabilite-gestion-locative",
+      "https://www.igcpro.com/emplois/technicien-comptabilite-gestion-locative",
   },
   openGraph: {
     title:
