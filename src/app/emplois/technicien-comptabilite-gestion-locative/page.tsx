@@ -320,8 +320,16 @@ export default function TechnicienComptabilitePage() {
                 <h2 className="text-2xl font-bold text-igc-dark mb-4">
                   Pour postuler
                 </h2>
-                <p className="text-slate-600 leading-relaxed mb-5">
+                <p className="text-slate-600 leading-relaxed mb-4">
                   Faites parvenir votre curriculum vitæ à l&apos;adresse courriel indiquée dans l&apos;affichage. Nous communiquerons avec les personnes dont la candidature aura été retenue pour une entrevue.
+                </p>
+                <p className="mb-5">
+                  <a
+                    href={mailtoHref}
+                    className="text-igc-blue hover:text-igc-blue-dark transition-colors font-medium underline"
+                  >
+                    {COURRIEL}
+                  </a>
                 </p>
                 <a
                   href={mailtoHref}
@@ -357,15 +365,6 @@ export default function TechnicienComptabilitePage() {
                   ))}
                 </dl>
 
-                <div className="mt-6 pt-5 border-t border-slate-100">
-                  <a
-                    href={mailtoHref}
-                    className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 bg-igc-blue text-white font-semibold rounded-lg hover:bg-igc-blue-dark transition-colors shadow-sm hover:shadow-md focus:outline-none focus:ring-2 focus:ring-igc-blue focus:ring-offset-2"
-                  >
-                    <Mail size={16} />
-                    Postuler
-                  </a>
-                </div>
               </div>
             </aside>
           </div>
